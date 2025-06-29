@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tastebuds</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/reseter.css@2.0.0/css/reseter.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main class="window" id="loading">
+      <header class="window-titlebar">
+        <div class="window-title">Tastebuds</div>
+        <div class="window-controls">
+          <button class="window-control minimize">-</button>
+          <button class="window-control maximize">+</button>
+          <button class="window-control close">x</button>
+        </div>
+      </header>
+      <div class="window-content">
+        <h1>Loading<span class="loading-dots"></span></h1>
+      </div>
+    </main>
+    <main class="window" id="error" style="display: none">
+      <header class="window-titlebar">
+        <div class="window-title">Tastebuds</div>
+        <div class="window-controls">
+          <button class="window-control minimize">-</button>
+          <button class="window-control maximize">+</button>
+          <button class="window-control close">x</button>
+        </div>
+      </header>
+      <div class="window-content">
+        <h1>An error occurred during authentication.</h1>
+        <p>Please try again. Please report to Krish. Debug info:</p>
+        <p id="error-text"></p>
+        <a href="../"><button class="button">Restart</button></a>
+      </div>
+    </main>
+    <main class="window" id="success" style="display: none">
+      <header class="window-titlebar">
+        <div class="window-title">Tastebuds</div>
+        <div class="window-controls">
+          <button class="window-control minimize">-</button>
+          <button class="window-control maximize">+</button>
+          <button class="window-control close">x</button>
+        </div>
+      </header>
+      <div class="window-content">
+        <h1>Success!</h1>
+        <a href="../results"><button class="button">Continue</button></a>
+      </div>
+    </main>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"
+    ></script>
+    <script defer src="../window.js"></script>
+    <script defer src="./script.js"></script>
+  </body>
+</html>

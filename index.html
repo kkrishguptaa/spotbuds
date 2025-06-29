@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tastebuds</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/reseter.css@2.0.0/css/reseter.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="window">
+      <header class="window-titlebar">
+        <div class="window-title">Tastebuds</div>
+        <div class="window-controls">
+          <button class="window-control minimize">-</button>
+          <button class="window-control maximize">+</button>
+          <button class="window-control close">x</button>
+        </div>
+      </header>
+      <div class="window-content">
+        <h1>Welcome to Tastebuds</h1>
+        <p>
+          One line AI-generated description of your recent music taste 💄
+          Changes every 24 hours
+        </p>
+        <a id="login-link">
+          <button class="button">login with spotify</button>
+        </a>
+      </div>
+    </main>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"
+    ></script>
+    <script defer src="./window.js"></script>
+    <script defer src="./script.js"></script>
+  </body>
+</html>
