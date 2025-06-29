@@ -1,5 +1,6 @@
 :root {
   width: 100vw;
+  margin: 1rem;
 
   /* Glass Window Colors */
   --window-bg: #f0f0f0;
@@ -241,7 +242,7 @@ body {
   border-top: 1px solid var(--content-border);
   position: relative;
   min-height: 200px;
-  width: 65ch;
+  max-width: max(65ch, 100%);
 }
 
 .window-content::before {
