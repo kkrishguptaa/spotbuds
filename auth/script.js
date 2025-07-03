@@ -1,6 +1,3 @@
-const clientId = "d6f964f061de4aaea35aaa1b5abd1e9d";
-const redirectUri = "https://kkrishguptaa.github.io/tastebuds/auth";
-
 const errHandler = (error) => {
   document.getElementById("loading").style.display = "none";
   document.getElementById("error").style.display = "block";
