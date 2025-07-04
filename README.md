@@ -8,11 +8,11 @@ One line AI-generated description of your recent music taste 💄
 > Spotify made it such that, Indie developers can't publish their apps. So, only me and 25 people invited by me can use this app.
 > If you want to try it out, you can ask me for an invite with your spotify email address. I will send you an invite, and you can use the app.
 
-[![Live Demo](https://github.com/user-attachments/assets/f5ddc02e-5ac6-4f9d-85ab-9d31476e7ea5)](https://tastebuds.kkrishguptaa.com)
+[![Live Demo](https://github.com/user-attachments/assets/f5ddc02e-5ac6-4f9d-85ab-9d31476e7ea5)](https://tastebuds.krishg.com)
 
 Here's the live demo of the app. You can try it out, but you need to have a Spotify account and be invited by me to use it.
 
-**Live Demo:** [tastebuds.kkrishguptaa.com](https://tastebuds.kkrishguptaa.com)
+**Live Demo:** [tastebuds.krishg.com](https://tastebuds.krishg.com)
 
 ## How this works
 
