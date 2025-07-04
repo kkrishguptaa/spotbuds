@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tastebuds</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/reseter.css@2.0.0/css/reseter.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="window">
+      <header class="window-titlebar">
+        <div class="window-title">Tastebuds</div>
+        <div class="window-controls">
+          <button class="window-control minimize">-</button>
+          <button class="window-control maximize">+</button>
+          <button class="window-control close">x</button>
+        </div>
+      </header>
+      <div class="window-content">
+        <h1>404: Not Found</h1>
+        <p>
+          Can't find that tastebud! It seems like the page you're looking for
+          doesn't exist. This could be due to a broken link or an incorrect URL.
+        </p>
+        <a href="./">
+          <button class="button">take me home</button>
+        </a>
+      </div>
+    </main>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"
+    ></script>
+    <script src="./config.js"></script>
+    <script defer src="./window.js"></script>
+  </body>
+</html>
