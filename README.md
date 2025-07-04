@@ -1,4 +1,4 @@
-![](https://github.com/kkrishguptaa/tastebuds/raw/main/assets/favicon.svg)
+![](https://github.com/kkrishguptaa/tastebuds/raw/main/assets/favicon-96x96.png)
 
 # tastebuds
 
