@@ -1,8 +1,8 @@
 <div align="center">
-<div><img src="https://github.com/kkrishguptaa/tastebuds/raw/main/assets/cover.png" alt="Tastebuds cover image" width="600"></div>
 <div><img src="https://github.com/kkrishguptaa/tastebuds/raw/main/assets/favicon.svg" alt="Tastebuds logo" width="96" height="96"></div>
 <h1>Tastebuds</h1>
 <p>One line AI-generated description of your recent music taste 💄</p>
+<div><img src="https://github.com/kkrishguptaa/tastebuds/raw/main/assets/cover.png" alt="Tastebuds cover image" width="600"></div>
 </div>
 
 ## Try it out
