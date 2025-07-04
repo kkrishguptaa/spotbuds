@@ -54,10 +54,6 @@ if (!window.localStorage.getItem("access_token")) {
   });
 } else {
   document.addEventListener("DOMContentLoaded", () => {
-    window.confirm(
-      "Spotify made it such that, Indie developers can't publish their apps. So, only me and 25 people invited by me can use this app. If you want to try it out, you can ask me for an invite with your spotify email address. I will send you an invite, and you can use the app. The app will not work you are not invited! I haven't setup any error handling for this as I'm hoping spotify will change this soon"
-    );
-
     const loginLink = document.getElementById("login-link");
 
     loginLink.href = "./results";
