@@ -309,6 +309,12 @@ body {
   font-weight: 400;
 }
 
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
 .button {
   background: linear-gradient(
     to bottom,

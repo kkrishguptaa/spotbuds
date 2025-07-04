@@ -1,4 +1,5 @@
 gsap.registerPlugin(Draggable);
+gsap.registerPlugin(InertiaPlugin);
 
 document.addEventListener("DOMContentLoaded", () => {
   const windows = document.querySelectorAll(".window");
@@ -11,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         minY: window.innerHeight * -0.2,
         maxY: window.innerHeight * 0.8,
       },
+      inertia: true,
       dragResistance: 0.5,
       edgeResistance: 1,
       trigger: win.querySelector(".window-titlebar"),
