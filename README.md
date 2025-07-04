@@ -1,8 +1,9 @@
-![](https://github.com/kkrishguptaa/tastebuds/raw/main/assets/favicon-96x96.png)
-
-# tastebuds
-
-One line AI-generated description of your recent music taste 💄
+<div align="center">
+<img src="https://github.com/kkrishguptaa/tastebuds/raw/main/assets/cover.png" alt="Tastebuds cover image" width="600">
+<img src="https://github.com/kkrishguptaa/tastebuds/raw/main/assets/favicon.svg" alt="Tastebuds logo" width="96" height="96">
+<h1>Tastebuds</h1>
+<p>One line AI-generated description of your recent music taste 💄</p>
+</div>
 
 ## Try it out
 
