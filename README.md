@@ -1,3 +1,5 @@
+![](https://github.com/kkrishguptaa/tastebuds/raw/main/assets/favicon.svg)
+
 # tastebuds
 
 One line AI-generated description of your recent music taste 💄
