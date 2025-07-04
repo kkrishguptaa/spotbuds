@@ -123,15 +123,18 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 ${selectedMusicData.join("\n")}
 
-Generate a clever sentence that captures their musical essence (MAX 120 CHARACTERS), and include a rating (X/10) at the end.
+Generate a clever couple of words that captures their musical essence (MAX 4 WORDS), and include a rating (X/10) at the end.
 
 Examples:
-- Depressed, need heart break therapy core 💔 - Rating: 8/10
-- Barbie fell in golden glitter core ✨ - Rating: 9/10
-- I love sad songs that make me cry 😢 - Rating: 6/10
-- Married to Mozart 🎼 - Rating: 10/10
+- Depressed, need heart break therapy core 💔
+- Barbie fell in golden glitter core ✨
+- I love sad songs that make me cry 😢
+- Married to Mozart 🎼
 
-Format: [witty description] - Rating: X/10`;
+Format: {vibe} | ({X/10})
+
+Don't give nothing more than what is asked, no extra text, no explanations, just the vibe and rating in the format above. Add an emoji that fits the vibe at the end. Vibe should be a short, catchy phrase that reflects their musical taste, and the rating should be a number from 1 to 10. The vibe should be unique and not generic, capturing the essence of their music preferences. The vibe should be related to pop culture, memes, or current trends, and should resonate with the user's personality and musical habits. Avoid using overly complex or technical terms, keep it simple and relatable. The vibe should be something that could be used as a catchy phrase or slogan for their music taste.
+`;
 
       let musicVibe =
         "Your music taste is as mysterious as a hidden track. - Rating: 7/10";
@@ -148,7 +151,7 @@ Format: [witty description] - Rating: X/10`;
           {
             role: "user",
             content:
-              "Now explain WHY this vibe and rating fit them. Analyze their data patterns, musical behaviors, and justify the rating score. Give a 2-3 sentence explanation.",
+              "Now explain WHY this vibe and rating fit them. Analyze their data patterns, musical behaviors, and justify the rating score. Give a 1 sentence explanation.",
           },
         ]);
 

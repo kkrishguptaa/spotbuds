@@ -366,6 +366,14 @@ body {
   animation: loading 1.5s infinite;
 }
 
+.vibe-section #music-vibe.music-vibe-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 2rem 0;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+}
+
 @keyframes loading {
   0% {
     content: ".";
