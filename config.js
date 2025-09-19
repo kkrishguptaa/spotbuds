@@ -1,6 +1,6 @@
 // production config
 const clientId = "d6f964f061de4aaea35aaa1b5abd1e9d";
-const redirectUri = "https://tastebuds.krishg.com/auth";
+const redirectUri = "https://spotbuds.krishg.com/auth";
 
 // development config
 // const clientId = "2de5576ababc4bd1a78e213fc729fa62";

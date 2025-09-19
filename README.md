@@ -1,8 +1,11 @@
+> [!IMPORTANT]
+> Since spotify closed off their API to indie developers, I switched to using the last.fm API. You can check the code for that project on [tastebuds](https://github.com/kkrishguptaa/tastebuds)
+
 <div align="center">
-<div><img src="https://github.com/kkrishguptaa/tastebuds/raw/main/assets/favicon.svg" alt="Tastebuds logo" width="96" height="96"></div>
-<h1>Tastebuds</h1>
+<div><img src="https://github.com/kkrishguptaa/spotbuds/raw/main/assets/favicon.svg" alt="SpotBuds logo" width="96" height="96"></div>
+<h1>SpotBuds</h1>
 <p>One line AI-generated description of your recent music taste 💄</p>
-<div><img src="https://github.com/kkrishguptaa/tastebuds/raw/main/assets/cover.png" alt="Tastebuds cover image" width="600"></div>
+<div><img src="https://github.com/kkrishguptaa/spotbuds/raw/main/assets/cover.png" alt="SpotBuds cover image" width="600"></div>
 </div>
 
 ## Try it out
@@ -11,11 +14,11 @@
 > Spotify made it such that, Indie developers can't publish their apps. So, only me and 25 people invited by me can use this app.
 > If you want to try it out, you can ask me for an invite with your spotify email address. I will send you an invite, and you can use the app.
 
-[![Live Demo](https://github.com/user-attachments/assets/f5ddc02e-5ac6-4f9d-85ab-9d31476e7ea5)](https://tastebuds.krishg.com)
+[![Live Demo](https://github.com/user-attachments/assets/f5ddc02e-5ac6-4f9d-85ab-9d31476e7ea5)](https://spotbuds.krishg.com)
 
 Here's the live demo of the app. You can try it out, but you need to have a Spotify account and be invited by me to use it.
 
-**Live Demo:** [tastebuds.krishg.com](https://tastebuds.krishg.com)
+**Live Demo:** [spotbuds.krishg.com](https://spotbuds.krishg.com)
 
 ## How this works
 
@@ -30,8 +33,8 @@ Here's the live demo of the app. You can try it out, but you need to have a Spot
 
 ## How to run this locally
 
-1. Clone the repository: `git clone https://github.com/kkrishguptaa/tastebuds.git`
-2. Navigate to the project directory: `cd tastebuds`
+1. Clone the repository: `git clone https://github.com/kkrishguptaa/spotbuds.git`
+2. Navigate to the project directory: `cd spotbuds`
 3. Open the `index.html` file in your browser through a local server (e.g., using `live-server` or any other static server).
 4. Create a spotify app at [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications).
 5. In `config.js`, add a spotify client ID and redirect URI.
